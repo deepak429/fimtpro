@@ -1,240 +1,583 @@
-[
-    {
-        "id": 1,
-        "text": "Hey, welcome to FIMT helpdesk.",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 2,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": "",
-        "option3": "",
-        "option3_nextMessageId": "",
-        "option4": "",
-        "option4_nextMessageId": "",
-        "option5": "",
-        "option5_nextMessageId": "",
-        "option6": "",
-        "option6_nextMessageId": ""
-    },
-    {
-        "id": 2,
-        "text": "What can I help you",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 3,
-        "option1": "Enquiry Form",
-        "option1_nextMessageId": "20",
-        "option2": "Brochure",
-        "option2_nextMessageId": "21",
-        "option3": "Admission",
-        "option3_nextMessageId": "3",
-        "option4": "",
-        "option4_nextMessageId": "",
-        "option5": "",
-        "option5_nextMessageId": "",
-        "option6": "",
-        "option6_nextMessageId": ""
-    },
-    {
-        "id": 3,
-        "text": "Would do you like to know the Course's",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "Yes",
-        "option1_nextMessageId": 4,
-        "option2": "No",
-        "option2_nextMessageId": 30,
-        "option3": "",
-        "option3_nextMessageId": "",
-        "option4": "",
-        "option4_nextMessageId": "",
-        "option5": "",
-        "option5_nextMessageId": "",
-        "option6": "",
-        "option6_nextMessageId": ""
-    },
-    {
-        "id": 4,
-        "text": "Which Courses are you Looking for",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "BCA",
-        "option1_nextMessageId": 16,
-        "option2": "BBA",
-        "option2_nextMessageId": 7,
-        "option3": "B.Com",
-        "option3_nextMessageId": 8,
-        "option4": "BA",
-        "option4_nextMessageId": 10,
-        "option5": "LLB",
-        "option5_nextMessageId": 15,
-        "option6": "BBA-LLB",
-        "option17_nextMessageId": 17,
-        "option7": "BA-LLB",
-        "option31_nextMessageId": 31,
-        "option8": "LLM",
-        "option32_nextMessageId": 32,
-        "option9": "B.ED",
-        "option33_nextMessageId": 33,
-        "option10": "BA(JMC)",
-        "option35_nextMessageId": 35
-    },
-   
-    {
-        "id": 10,
-        "text": "Stay up to date and learn about SAP’s latest ",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "BA-ECO",
-        "option1_nextMessageId": 37,
-        "option2": "BA-ENG",
-        "option2_nextMessageId": 36
-    },
-    {
-        "id": 16,
-        "text": "Visit Our Website for more information",
-        "messageType": "Text",
-        "imageUrl": "<a href='http://fimt-ggsipu.org/'>",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": ""
-    },
-    {
-        "id": 20,
-        "text": "Do you wish to continue?",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "Yes",
-        "option1_nextMessageId": 4,
-        "option2": "No",
-        "option2_nextMessageId": 30,
-        "option3": "",
-        "option3_nextMessageId": ""
-    },
-    {
-        "id": 7,
-        "text": "contact us at sales@chatconnect.io.in",
-        "messageType": "Text",
-        "imageUrl": "https://www.chatconnect.io.in",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": ""
-    },
-    {
-        "id": 8,
-        "text": "Currently we have following job openings.",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "Traine Software Engineer",
-        "option1_nextMessageId": 9,
-        "option2": "Software Engineer",
-        "option2_nextMessageId": 9,
-        "option3": "Graphic Designer",
-        "option3_nextMessageId": 9,
-        "option4": "Digital Marketing Expert",
-        "option4_nextMessageId": 9
-    },
-    {
-        "id": 9,
-        "text": "Send your profiles at career@chatconnect.io.in",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": ""
-    },
-    {
-        "id": 10,
-        "text": "For any help, please contact us at customer-care@chatconnect.io.in",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": ""
-    },
-    {
-        "id": 11,
-        "text": "From our FAQ's",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "How can we use your services?",
-        "option1_nextMessageId": 12,
-        "option2": "Can we contribute to your project?",
-        "option2_nextMessageId": 13,
-        "option3": "Who is the creator of Chat Connect?",
-        "option3_nextMessageId": 14,
-        "option4": "",
-        "option4_nextMessageId": "",
-        "option5": "",
-        "option5_nextMessageId": ""
-    },
-    {
-        "id": 12,
-        "text": "Just Signup and avail the service for free.",
-        "messageType": "Text",
-        "imageUrl": "https://www.chatconnect.io.in",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": ""
-    },
-    {
-        "id": 13,
-        "text": "For contributions check out our open issues.",
-        "messageType": "Text",
-        "imageUrl": "https://github.com/Rutikab12/Chatbot-Web-Application",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": ""
-    },
-    {
-        "id": 14,
-        "text": "We are team of ChatConnect.",
-        "messageType": "Question",
-        "imageUrl": "",
-        "nextMessageId": "",
-        "option1": "Rutik Bhoyar",
-        "option1_nextMessageId": 15,
-        "option2": "Pranay Haramwar",
-        "option2_nextMessageId": 15,
-        "option3": "Dipak Vaidya",
-        "option3_nextMessageId": 15,
-        "option4": "Yogesh Dongarwar",
-        "option4_nextMessageId": 15
-    },
-    {
-        "id": 15,
-        "text": "We are students of RCERT, Chandrapur, India",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 20,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": ""
-    },
-    {
-        "id": 30,
-        "text": "Thank your for visiting us.",
-        "messageType": "Text",
-        "imageUrl": "",
-        "nextMessageId": 0,
-        "option1": "",
-        "option1_nextMessageId": "",
-        "option2": "",
-        "option2_nextMessageId": ""
-    }
-]
+
+  {
+    "id": 1,
+    "text": "Welcome to FIMT College - An 'A' Grade, NAAC Accredited College affiliated to GGSIP UNIVERSITY and approved Bar Council of India and NCTE. Please provide us your contact details to enable our Career Counselor to get in touch or visit www.fimt-ggsipu.org for details. STAY SAFE | STAY HEALTHY",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": 2,
+    "option1": "",
+    "option1_nextMessageId": ""
+  },
+  {
+    "id": 2,
+    "text": "",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "3",
+    "option1": "Enquiry Form",
+    "option1_nextMessageId": "20",
+    "option2": "Brochure",
+    "option2_nextMessageId": "21",
+    "option3": "Admission",
+    "option3_nextMessageId": "3"
+  },
+  {
+    "id": 3,
+    "text": "Would do you like to know the Course",
+    "messageType": "Question",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "Yes",
+    "option1_nextMessageId": 50,
+    "option2": "No",
+    "option2_nextMessageId": 51
+  },
+  {
+    "id": 50,
+    "text": "Choice any one",
+    "messageType": "Question",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "Undergraduate Course",
+    "option1_nextMessageId": 52,
+    "option2": "Postgraduate Course",
+    "option2_nextMessageId": 53
+  },
+  {
+    "id": 52,
+    "text": "Undergraduate Course",
+    "messageType": "Question",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "BCA",
+    "option1_nextMessageId": 90,
+    "option2": "BBA",
+    "option2_nextMessageId": 91,
+    "option3": "B.Com",
+    "option3_nextMessageId": 92,
+    "option4": "BA",
+    "option4_nextMessageId": 93,
+    "option5": "LLB",
+    "option5_nextMessageId": 94,
+    "option6": "BBA-LLB",
+    "option17_nextMessageId": 95,
+    "option9": "B.ED",
+    "option33_nextMessageId": 96,
+    "option10": "BA(JMC)",
+    "option35_nextMessageId": 97
+  },
+  {
+    "id": 93,
+    "text": "",
+    "messageType": "Question",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "BA-LLB",
+    "option1_nextMessageId": 98,
+    "option2": "BA-ENG",
+    "option2_nextMessageId": 99,
+    "option3": "BA-ECO",
+    "option3_nextMessageId": 100
+  },
+  {
+    "id": 53,
+    "text": "Postgraduate Course",
+    "messageType": "Question",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "LLM",
+    "option1_nextMessageId": 101
+  },
+  {
+    "id": 90,
+    "text": "Discription:- BCA stands for bachelor of computer applications, and as the name implies, a BCA course will provide you with in-depth understanding of computers. Networking, computer basics, operating systems, programming languages such as C,C++,C#,.Net,Java, and many more (depending on the university's syllabus)<br>3.42 Lakh",
+    "imageUrl": "",
+    "nextMessageId": "901",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 901,
+    "text": "Total Fees:- 3.16 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "902",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 902,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "903",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 903,
+    "text": "Skill:- Web Development, Web Designing, Software Development, App Development, Cyber Security",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 91,
+    "text": "Discription:- BBA(G) is a course that aims at providing basic management education to the students. In an age, when everyone wants to learn business skills, the course prepares the students with business tactics that will help them in future. The course provides both theoretical and practical knowledge of various business areas like Finance, marketing, HR, Accounting, etc.",
+    "imageUrl": "",
+    "nextMessageId": "801",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 801,
+    "text": "Total Fees:- 3.20 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "802",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 802,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "803",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 803,
+    "text": "Skill:- Organisation and Managment, Interpersonal, Networking, Data Analysis, Digital Marketing",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 91,
+    "text": "Discription:- BBA(G) is a course that aims at providing basic management education to the students. In an age, when everyone wants to learn business skills, the course prepares the students with business tactics that will help them in future. The course provides both theoretical and practical knowledge of various business areas like Finance, marketing, HR, Accounting, etc.",
+    "imageUrl": "",
+    "nextMessageId": "801",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 801,
+    "text": "Total Fees:- 3.20 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "802",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 802,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "803",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 803,
+    "text": "Skill:- Organisation and Managment, Interpersonal, Networking, Data Analysis, Digital Marketing",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 92,
+    "text": "Bachelor of Commerce (H) is a three-year under-graduate course modeled to offer the student with a number of management skills and at the same time building proficiency amongst the students in a specific area. The Bachelor of Commerce is a career-oriented degree which provides a foundation in all aspects of commerce. Studying General Commerce prepares graduates for a wide range of careers in the business world.",
+    "imageUrl": "",
+    "nextMessageId": "701",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 701,
+    "text": "Total Fees:- 3.20 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "702",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 702,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "703",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 703,
+    "text": "Skill:- Marketing Skill, Managerial skill, Analytical skill, Research skill, Digital Marketi",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 94,
+    "text": "The School of Law - LLM(Integrated) aims to explore and identify novel areas of law and policy through relentless engagement in developing legal theory and practice, academic potential, critical analytical ability and advocacy skills so as to fully equip the students with a learning which is intellectually stimulating, socially vital and professionally enriching. ",
+    "imageUrl": "",
+    "nextMessageId": "601",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 601,
+    "text": "Total Fees:- 3.60 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "602",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 602,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "603",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 603,
+    "text": "Skill:- Team work, Negotiation, Problem-Solving, Work under Pressure, Presentation",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 95,
+    "text": "The School of Law - BBA-LLB(Integrated) is one of the most sought after courses in Law field. It is an integrated course which combines study of Law with study of Business Administration. It provides an understanding as to the interrelationship between Law and Management as a whole. It also provides a deeper understanding as to how both these clubbed together puts the understanding of Business more meaningful in larger perspective. ",
+    "imageUrl": "",
+    "nextMessageId": "501",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 501,
+    "text": "Total Fees:- 4.20 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "502",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 502,
+    "text": "Duration:- 5 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "503",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 503,
+    "text": "Skill:- Judgement Skill, Time-Managment skill, Team Leading skill, Work Under Pressure, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 96,
+    "text": "FIMT - School of Education is a part of Fairfield Institute of Management & Technology running Two Year B.Ed. Programme (2015 onwards) Affiliated to Guru Gobind Singh Indraprastha University, Delhi since 2012. Education is considered as the most powerful means to bring transformation. FIMT-School of Education duly attests this philosophy and tries to accomplish this task by enable them to be the leaders of tomorrow.",
+    "imageUrl": "",
+    "nextMessageId": "401",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 401,
+    "text": "Total Fees:- 3 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "402",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 402,
+    "text": "Duration:- 2 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "403",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 403,
+    "text": "Skill:- Communication Skill, Time-Managment skill, Team Leading skill, Guidance skill, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 97,
+    "text": "FIMT-School of Journalism & Mass Communication (FIMT-SJMC) is affiliated to Guru Gobind Singh Indraprastha University. The department runs a 3 years degree course of Bachelor of Arts (Journalism & Mass Communication). Journalism & Mass communication has emerged as an important field contributing in development & empowerment of the society. FIMT-SJMC also focuses on imparting good knowledge about Media Literacy.",
+    "imageUrl": "",
+    "nextMessageId": "3001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 3001,
+    "text": "Total Fees:- 3.50 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "3002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 3002,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "3003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 3003,
+    "text": "Skill:- Content Development, Video Editing, Public Speaking, Media research, Graphic Designing",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 98,
+    "text": "The School of Law - BA.LL.B(Integrated) aims to explore and identify novel areas of law and policy through relentless engagement in developing legal theory and practice, academic potential, critical analytical ability and advocacy skills so as to fully equip the students with a learning which is intellectually stimulating, socially vital and professionally enriching. ",
+    "imageUrl": "",
+    "nextMessageId": "8001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 8001,
+    "text": "Total Fees:- 4.26 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "8002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 8002,
+    "text": "Duration:- 5 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "8003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 8003,
+    "text": "Skill:- Judgement Skill, Time-Managment skill, Team Leading skill, Work Under Pressure, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 99,
+    "text": "B.A. English Honours is a three-year undergraduate course, minimum eligibility for which is a 10+2 or intermediate qualification. Successful pursuance of the course prepares candidates for careers in fields such as teaching, media, advertising, writing, and publishing, for further graduate or professional studies in English, communications, or law; and for other fields requiring competent communication skills.",
+    "imageUrl": "",
+    "nextMessageId": "7001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7001,
+    "text": "Total Fees:- 3.26 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "7002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7002,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "7003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7003,
+    "text": "Skill:- Communication Skill, Content Writing, Innovative Thinking, Oratory skill, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 100,
+    "text": "The course is best-suited for students who are seeking to build a career in the economics field. This will be helpful in prospective career programs such as MBA and the likes to build oneself as an entrepreneur with the detailed knowledge of the economy and how it runs. It is the social science which analyses the economy as a whole and its production, consumption, distribution of different goods and services.",
+    "imageUrl": "",
+    "nextMessageId": "7001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7001,
+    "text": "Total Fees:- 3.16 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "7002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7002,
+    "text": "Duration:- 3 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "7003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 7003,
+    "text": "Skill:- Innovative Thinking, Communication Skill, Content Writing, Oratory skill, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 101,
+    "text": "The School of Law - LL.M. aims to explore and identify novel areas of law and policy through relentless engagement in developing legal theory and practice, academic potential, critical analytical ability and advocacy skills so as to fully equip the students with a learning which is intellectually stimulating, socially vital and professionally enriching. This course is intended to impart intensive knowledge and training in Law subjects and helps students to acquire wider perspectives both for legal responsibilities and professional application",
+    "imageUrl": "",
+    "nextMessageId": "6001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 6001,
+    "text": "Total Fees:- 3.65 Lakh",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "6002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 6002,
+    "text": "Duration:- 2 Years",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "6003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 6003,
+    "text": "Skill:- Judgement Skill, Time-Managment skill, Team Leading skill, Work Under Pressure, Problem-Solving",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 51,
+    "text": "Visit Our Website for more information",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": 82,
+    "option1": "",
+    "option1_nextMessageId": ""
+  },
+  {
+    "id": 82,
+    "text": "Visit Our Website for more information",
+    "messageType": "Text",
+    "imageUrl": "http://fimt-ggsipu.org/",
+    "nextMessageId": 14,
+    "option1": "",
+    "option1_nextMessageId": ""
+  },
+  {
+    "id": 14,
+    "text": "We are team of ChatConnect.",
+    "imageUrl": "",
+    "nextMessageId": "5001",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 5001,
+    "text": "DEEPAK KUMAR CHOUDHARY",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "5002",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 5002,
+    "text": "ABHISHEK KASHAV",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "5003",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 5003,
+    "text": "SANYAM KUMAR",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "5004",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 5004,
+    "text": "Savyasachi Chaturvedi",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": "30",
+    "option1": "",
+    "option1_nextMessageId": 300
+  },
+  {
+    "id": 30,
+    "text": "Thank your for visiting us.̤",
+    "messageType": "Text",
+    "imageUrl": "",
+    "nextMessageId": 0,
+    "option1": "",
+    "option1_nextMessageId": "",
+    "option2": "",
+    "option2_nextMessageId": ""
+  }
